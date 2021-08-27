@@ -1,0 +1,99 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,500;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Dancing+Script:wght@500&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+    overflow-y: scroll;
+
+    /* background-image: url(./images/); */
+
+    background-color: #2F2F33;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+}
+
+.header {
+    width: 100%;
+    height: 950px;
+    background-image: linear-gradient(to right bottom, #4fff33, #d3d100, #ff9700, #ff5a57, #ff3f98, #e469ce, #ba8bf1, #8da6ff, #4cc1ff, #00d9ff, #00eeff, #1ffff1);    border-bottom-right-radius: 40px;
+}
+
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+.layout {
+    width: 97%;
+    height: auto;
+    background-color: #E8EAF7;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    overflow-y: scroll;
+    transform: translate(1.5%, -0.5%);
+    
+}
+
+.layout p {
+    color: #000;
+    text-align: center;
+    transform: translate(0%, 0.5%)
+}
+
+.wishContainer img {
+    width: 400px;
+    height: 400px;
+    transform: translate(4%, -10%);
+}
+
+.imageContainer .img1 {
+    width: 60%;
+    height: 280px;
+    margin-top: -130px;
+    margin-left: 80px;
+    border-radius: 50px;
+}
+
+.imageContainer p {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-top: -3px;
+}
+
+.imageContainer .img2 {
+    width: 100%;
+    height: 150px;
+}
+
+.first-flag {
+    width: 100%;
+    height: 150px;
+    margin-left: 0px;
+    margin-top: -70px;
+    transform: translate(0%, -80%);
+}
+
+.creditSection {
+    margin-top: -10px;
+}
+
+
+
+
+
+
+
+
+
+
+
