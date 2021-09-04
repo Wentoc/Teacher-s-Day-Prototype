@@ -7,6 +7,7 @@ html, body {
     margin: 0;
     padding: 0;
     /* overflow: hidden; */
+    overflow-x: hidden;
     overflow-y: scroll;
 
     /* background-image: url(./images/); */
@@ -24,7 +25,7 @@ html, body {
 
 .header {
     width: 100%;
-    height: 950px;
+    height: 1050px;
     background-image: linear-gradient(to right bottom, #4fff33, #d3d100, #ff9700, #ff5a57, #ff3f98, #e469ce, #ba8bf1, #8da6ff, #4cc1ff, #00d9ff, #00eeff, #1ffff1);    border-bottom-right-radius: 40px;
 }
 
@@ -34,15 +35,9 @@ html, body {
 }
 
 .layout {
-    width: 97%;
-    height: auto;
-    background-color: #E8EAF7;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
     overflow-y: scroll;
-    transform: translate(1.5%, -0.5%);
-    
 }
+    /* border-top-right-radius: 25px; */
 
 .layout p {
     color: #000;
@@ -51,9 +46,18 @@ html, body {
 }
 
 .wishContainer img {
-    width: 400px;
-    height: 400px;
-    transform: translate(4%, -10%);
+    width: 80%;
+    height: 300px;
+    transform: translate(13%, -0%);
+    /* background-color: #fff; */
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+/* 13 */
+
+.imageContainer {
+    margin-top: 20px;
 }
 
 .imageContainer .img1 {
@@ -84,16 +88,53 @@ html, body {
 }
 
 .creditSection {
-    margin-top: -10px;
+    margin-top: 20px;
 }
 
+.schoolName {
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.658);
+}
 
+.schoolName p {
+    font-size: 20px;
+    color: rgb(231, 213, 213);
+}
 
+.w {
+    width: 95%;
+    height: 120px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 5px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
 
+.wishes {
+    margin-top: 10px;
+}
 
+.first-flag {
+    margin-top: 60px;
+}
 
+.w1 {
+    background-color: #007bff
+}
 
+.w2 {
+    background-color: #28a745
+}
 
+.w3 {
+    background-color: #ffc107
+}
 
+.w4 {
+    background-color: #abdee6
+}
 
-
+.w5 {
+    background-color: #ff968a
+}
